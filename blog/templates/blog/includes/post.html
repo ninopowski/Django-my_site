@@ -1,0 +1,13 @@
+{% load static %}
+
+<li>
+   <article class="post">
+     <a href="{% url "post-details-page" slug="mountain-biking" %}">
+       <img src="{% static "blog/images/woods.jpg" %}" alt="Mountain Biking" />
+       <div class="post__content">
+         <h3>Mountain biking</h3>
+         <p>Mountain biking is so much fun. Spending time in the woods is so relaxing.</p>
+       </div>
+     </a>
+   </article>
+ </li>
